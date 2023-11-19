@@ -8,7 +8,7 @@ Para instalar as dependências do projeto, execute o comando `mvn install`. Isso
 Para executar os testes, execute o comando `mvn test`.
 
 ## 🧹 Linter (Checkstyle)
-O Checkstyle é usado para fazer a análise estática do código. Este projeto já vem com as dependências relacionadas ao linter configuradas no arquivo `pom.xml`. O Checkstyle já é executado jutamente aos testes. No entanto, caso deseje rodar o Checkstyle manualmente, basta executar o comando `mvn checkstyle:check`.
+O Checkstyle é usado para fazer a análise estática do código. Este projeto já vem com as dependências relacionadas ao linter configuradas no arquivo `pom.xml`. O Checkstyle já é executado juntamente aos testes. No entanto, caso deseje rodar o Checkstyle manualmente, basta executar o comando `mvn checkstyle:check`.
 
 ## :white_check_mark: Funcionalidades dos departamentos
 ### (1) Pessoa Estudante - Calcular idade em dias
