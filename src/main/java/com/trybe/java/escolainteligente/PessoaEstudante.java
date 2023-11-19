@@ -15,6 +15,18 @@ public class PessoaEstudante {
    * Método coletarInformacoes.
    */
   public static void coletarInformacoes() {
-    System.out.println("TODO: Solicitar informações da Pessoa Estudante ");
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Qual o nome da Pessoa Estudante?");
+    String nome = scanner.next();
+    System.out.println("Qual a sua idade em anos, meses e dias?");
+    System.out.println("anos:");
+    int anos = scanner.nextInt();
+    System.out.println("meses:");
+    int meses = scanner.nextInt();
+    System.out.println("dias:");
+    int dias = scanner.nextInt();
+
+    int idadeEmDias = calcularIdadeEmDias(anos, meses, dias);
+    System.out.println("A idade de " + nome + " em dias é " + idadeEmDias + ".");
   }
 }
