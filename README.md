@@ -2,7 +2,7 @@
 Este projeto é uma aplicação Java que simula um sistema de uma escola inteligente. A aplicação conta com três departamentos: Pessoa Estudante, Secretaria e Portaria. A partir da opção selecionada no menu principal `App.java`, a aplicação coleta as informações necessárias e executa a funcionalidade do departamento escolhido.
 
 # ⚙️ Instalação das dependências
-Para instalar as dependências do projeto, execute o comando mvn install. Isso fará o download das dependências configuradas no pom.xml, além de baixar as dependências indiretas.
+Para instalar as dependências do projeto, execute o comando `mvn install`. Isso fará o download das dependências configuradas no `pom.xml`, além de baixar as dependências indiretas.
 
 # :mag: Testes
 Para executar os testes, execute o comando `mvn test`.
