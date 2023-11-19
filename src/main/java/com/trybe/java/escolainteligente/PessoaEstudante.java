@@ -8,8 +8,7 @@ public class PessoaEstudante {
    * Método calcularIdadeEmDias.
    */
   public static int calcularIdadeEmDias(int anos, int meses, int dias) {
-    System.out.println("TODO: Implementar a função calcular Idade em Dias.");
-    return 0;
+    return ((365 * anos) + (30 * meses) + dias);
   }
 
   /**
